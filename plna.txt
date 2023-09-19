@@ -1,0 +1,9 @@
+Create npm project
+Create Index, Css, Js files
+Install dependancies. express, modemon 
+Create a express server 
+do frontend part
+install socket.io, setup socket.io in server.js and client client.js 
+client send message logic in client.js
+Recieve message on server and broadcsast to all client
+Recieve message on client and display it. scrollToBottom etc...
