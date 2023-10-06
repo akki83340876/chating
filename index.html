@@ -15,14 +15,15 @@
         </div> 
         <div>
             <textarea id="textarea" cols="30" rows="1" placeholder="write a message"></textarea>
+                        <button onclick="sendMessage()">Send</button>
         </div>
     </section>
     <script src="/socket.io/socket.io.js">
-// const { auth, provider } = require ('./firebase');
-// function googleSignUp(){
-// auth.signInwithPopup(provider);
-
-// }
+  function sendMessage() {
+            // Get the message from the textarea
+            const message = document.getElementById('textarea').value;
+            document.getElementById('textarea').value = '';
+        }
 </script>
 
     <script src="/client.js"> </script>
